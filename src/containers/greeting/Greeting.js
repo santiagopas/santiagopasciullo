@@ -26,8 +26,8 @@ export default function Greeting(props) {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Mobile y web developer")
-                      .pauseFor(100)
+                      .typeString("Mobile/Web developer")
+                      .pauseFor(200)
                       .deleteAll()
                       .typeString("Frontend ♥")
                       .pauseFor(200)
