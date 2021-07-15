@@ -60,9 +60,10 @@
 }
 
 .greeting-image-div > * {
-  max-width: 90%;
+  max-width: 95%;
   height: auto;
 }
+
 
 /* Media Query */
 @media (max-width: 1380px) {

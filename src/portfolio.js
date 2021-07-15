@@ -10,7 +10,7 @@ const seo = {
   og: {
     title: "Santiago Portfolio",
     type: "website",
-    url: "https://santiagopas.github.io/",
+    url: "https://santago-pasciullo.netlify.app/splash",
   },
 };
 
@@ -19,7 +19,7 @@ const greeting = {
   title: "Hola!",
   sub: "Santiago Pasciullo",
   logo_name: "Santiago",
-  resumeLink: "https://santiagopas.github.io/Portafolio/CV%20Santiago.pdf",
+  resumeLink: "https://portafolio-santiago-web.netlify.app/CV%20Santiago.pdf",
 };
 
 // home logos
