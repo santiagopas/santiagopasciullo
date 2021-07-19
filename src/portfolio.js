@@ -57,13 +57,16 @@ const skills = {
         "⚡ Tecnologías usadas:  Framework7 / Firebase / Bases de datos SQL y NoSQL",
       ],
       softwareSkills: [
+
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "logos-firebase",
+          skillName: "Framework 7",
+          fontAwesomeClassname: "logos-framework7",
           style: {
             backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
+        
         {
           skillName: "Apache cordova",
           fontAwesomeClassname: "logos-cordova",
@@ -72,13 +75,13 @@ const skills = {
           },
         },
         {
-          skillName: "Framework 7",
-          fontAwesomeClassname: "logos-framework7",
+          skillName: "Firebase",
+          fontAwesomeClassname: "logos-firebase",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
           },
-        }
+        },
+ 
       ],
     },
     {
