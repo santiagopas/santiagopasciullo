@@ -6,7 +6,7 @@ class Badges extends Component {
     console.log(tg.title);
     return (
       <Badge variant="warning" style={{ marginRight: "0.5em" }}>
-        python
+        JavaScript
       </Badge>
     );
   }

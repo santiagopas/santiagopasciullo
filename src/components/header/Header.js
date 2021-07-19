@@ -6,6 +6,8 @@ import { settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 // import { Navbar } from "react-bootstrap";
 import logo from "../../assets/logo/logo-01.png";
+// import { ToggleButton } from "react-bootstrap";
+// import ToggleSwitch from "../footer/ToggleSwitch";
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
@@ -57,7 +59,7 @@ class Header extends Component {
                   Experiencia &#38; Educación
                 </NavLink>
               </li>
-              <li></li>
+              <li></li>*/}
               <li>
                 <NavLink
                   to="/projects"
@@ -69,7 +71,7 @@ class Header extends Component {
                 >
                   Proyectos
                 </NavLink>
-              </li> */}
+              </li> 
               <li>
                 <NavLink
                   to="/contact"

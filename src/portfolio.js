@@ -187,201 +187,137 @@ const skills = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Proyectos",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "En cada proyecto me gusta implementar distintas tecnologías, heramientas y técnicas.",
+  description2:
+    "🚀Siempre aprendiendo! "
 };
 
 //project cards
 // colors:[primary,secondary,success,danger,warning,info,light,dark,]
 const projectcards = {
   list: [
-    {
-      title: "TEATH",
-      img_path: "project-06.png",
-      description:
-        "A WebApp for Extracting Text from Images and applying various thresholding methods with sentiment analysis using TextBlob",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "TextBlob",
-          color: "#820032",
-        },
-        {
-          lang: "OpenCV",
-          color: "#00a100",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://teath.herokuapp.com ",
-      code: "",
-      linkcolor: "white",
-    },
 
     {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
+      title: "Rastreador de casos de COVID",
+      img_path: "project-01.png",
       description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+        "Una app web para ver los casos positivos, recuperados y muertes por COVID-19 en tiempo real. Incluye gráficos y tablas dinámicas y uso de técnicas como BEM. Uso de api de disease.sh para obtener información de los casos y de la api de Leaflet para uso de mapas.",
       tags: [
         {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "python",
+          lang: "ReactJS",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "JavaScript",
           color: "#c47206",
         },
         {
-          lang: "tensorflow",
-          color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "NeuralViz",
-      img_path: "neural.gif",
-      description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
-      tags: [
-        {
-          lang: "python",
+          lang: "HTML5",
           color: "#004782",
         },
         {
-          lang: "numpy",
+          lang: "CSS3",
           color: "#8700b0",
         },
         {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
+          lang: "Netlify",
+          color: "#0078D4",
+        }
       ],
-      link: "https://neuralviz.herokuapp.com/",
+      link: "https://casosdecovid.netlify.app/",
       code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
-      description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
-      tags: [
-        {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
-      description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
-      tags: [
-        {
-          lang: "internal project",
-          color: "red",
-        },
-        {
-          lang: "youtube v3 api",
-          color: "red",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
+      linkcolor: "orange",
     },
 
     {
-      title: "Newsearcher",
-      img_path: "news.gif",
+      title: "Landing page con VUEJs. ",
+      img_path: "paranaFumigaciones.png",
       description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
+        "Pagina Landing para empresa de fumigaciones de Rosario. Realizada con VUEjs, implementando animaciones, transiciones, efectos CSS, uso de UX/UI y formulario funcional.",
       tags: [
         {
-          lang: "python",
+          lang: "VUEjs",
+          color: "green",
+        },
+        {
+          lang: "JavaScript",
+          color: "#c47206",
+        }, {
+          lang: "HTML5",
           color: "#004782",
         },
         {
-          lang: "newspaper3k",
-          color: "#303030",
+          lang: "CSS3",
+          color: "#8700b0",
         },
         {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "nltk",
-          color: "#051c61",
-        },
+          lang: "Netlify",
+          color: "#0078D4",
+        }
       ],
-      link: "https://newsearcher.herokuapp.com/",
+      link: "https://parana-fumigaciones.netlify.app/",
       code: "",
-      linkcolor: "white",
+      linkcolor: "orange",
     },
     {
-      title: "ActiWeight",
-      img_path: "acti.gif",
+      title: "Portafolio Web",
+      img_path: "portafolioVanilla.png",
       description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+        "Portafolio web, creado utilizando vanilla HTML5, CSS3, JavaScript, incluye formulario de contacto funcional. Tecnicas utilizadas, glassmorfismo, fetch, async y awaitt, grid, flex box y CSS components.",
       tags: [
         {
-          lang: "python",
+          lang: "HTML5",
           color: "#004782",
         },
         {
-          lang: "matplotlib",
+          lang: "CSS3",
+          color: "#8700b0",
+        },
+        {
+          lang: "JavaScript",
           color: "#c47206",
         },
         {
-          lang: "Streamlit",
-          color: "#ff4b4b",
+          lang: "Netlify",
+          color: "#0078D4",
+        }
+      ],
+      link: "https://portafolio-santiago-web.netlify.app/",
+      code: "",
+      linkcolor: "orange",
+    },
+    {
+      title: "Portafolio con ReactJs",
+      img_path: "PortafolioReact.png",
+      description:
+        "Portafolio creado con ReactJS. Haciendo uso de UX/UI, animaciones en javascript como sroll and reveal, animejs para las animaciones,react-helmet para configuración de meta tags, Core UI para los componentes, Adobellustrator para la creación de losgos y gráficos con vectores.",
+      tags: [
+        {
+          lang: "JavaScript",
+          color: "#c47206",
         },
         {
-          lang: "Heroku",
-          color: "#3c0095",
+          lang: "Reactjs",
+          color: "#004782",
         },
+        {
+          lang: "HTML5",
+          color: "#004782",
+        },
+        {
+          lang: "CSS3",
+          color: "#8700b0",
+        },
+        {
+          lang: "Netlify",
+          color: "#0078D4",
+        }
       ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
+      link: "https://santiago-pasciullo.netlify.app/home",
       code: "",
-      linkcolor: "white",
+      linkcolor: "orange",
     },
   ],
 };

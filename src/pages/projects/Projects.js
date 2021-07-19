@@ -30,12 +30,18 @@ class Projects extends Component {
                 >
                   {projectsHeader.title}
                 </h1>
-                <p
+                <h4
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.text }}
                 >
                   {projectsHeader["description"]}
-                </p>
+                </h4>
+                <h4
+                  className="projects-header-detail-text subTitle"
+                  style={{ color: theme.text }}
+                >
+                  {projectsHeader["description2"]}
+                </h4>
               </div>
             </div>
           </Fade>
@@ -45,11 +51,12 @@ class Projects extends Component {
             {projectcards.list.map((proj) => {
               return (
                 <Card className="h-100">
-                  <Card.Img
+                  {/* <Card.Img
                     variant="top"
                     src={require(`../../assets/projects/${proj.img_path}`)}
-                  />
-                  <Card.Body>
+                  />  */}
+
+                  <Card.Body >
                     <Card.Title>
                       <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>
                         {proj.title}
@@ -112,7 +119,7 @@ class Projects extends Component {
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/rohankokkula"
+          href="https://github.com/santiagopas"
           newTab={true}
           theme={theme}
         />

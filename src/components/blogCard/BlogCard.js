@@ -12,7 +12,7 @@ export default function BlogCard({ blog }) {
 
           <div>
             <a href={blog.url} target="_" class="button">
-              Read More
+              Ver mas
             </a>
           </div>
         </div>
