@@ -238,7 +238,7 @@ const projectcards = {
       title: "Landing page con VUEJs. ",
       img_path: "paranaFumigaciones.png",
       description:
-        "Pagina Landing para empresa de fumigaciones de Rosario. Realizada con VUEjs, implementando animaciones, transiciones, efectos CSS, uso de UX/UI y formulario funcional.",
+        "Página Landing para empresa de fumigaciones de la ciudad de Rosario. Realizada con VUEjs, implementando animaciones, transiciones, efectos CSS, uso de UX/UI, diseño de gráficos vectoriales y formulario funcional.",
       tags: [
         {
           lang: "VUEjs",
@@ -295,7 +295,7 @@ const projectcards = {
       title: "Portafolio con ReactJs",
       img_path: "PortafolioReact.png",
       description:
-        "Portafolio creado con ReactJS. Haciendo uso de UX/UI, animaciones en javascript como sroll and reveal, animejs para las animaciones,react-helmet para configuración de meta tags, Core UI para los componentes, Adobellustrator para la creación de losgos y gráficos con vectores.",
+        "Portafolio creado con ReactJS. Haciendo uso de UX/UI, animaciones en javascript como sroll and reveal, animejs y splashjs para las animaciones,react-helmet para configuración de meta tags, Core UI para los componentes, Adobellustrator para la creación de logos y gráficos con vectores.",
       tags: [
         {
           lang: "JavaScript",
