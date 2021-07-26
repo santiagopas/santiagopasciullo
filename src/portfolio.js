@@ -144,6 +144,13 @@ const skills = {
           },
         },
         {
+          skillName: "Ruby on rails",
+          fontAwesomeClassname: "simple-icons:rails",
+          style: {
+            color: "#CC0000",
+          },
+        },
+        {
           skillName: "VUEjs",
           fontAwesomeClassname: "simple-icons:vuejs",
           style: {
