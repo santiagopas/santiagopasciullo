@@ -117,7 +117,7 @@ class Projects extends Component {
           </CardColumns>
         </div>
         <Button
-          text={"More Projects"}
+          text={"Más proyectos"}
           className="project-button"
           href="https://github.com/santiagopas"
           newTab={true}
