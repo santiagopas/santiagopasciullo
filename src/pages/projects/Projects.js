@@ -54,7 +54,7 @@ class Projects extends Component {
                   {/* <Card.Img
                     variant="top"
                     src={require(`../../assets/projects/${proj.img_path}`)}
-                  />  */}
+                  />   */}
 
                   <Card.Body >
                     <Card.Title>

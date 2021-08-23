@@ -237,7 +237,7 @@ const projectcards = {
         }
       ],
       link: "https://casosdecovid.netlify.app/",
-      code: "",
+      code: "https://github.com/santiagopas",
       linkcolor: "orange",
     },
 
@@ -268,7 +268,7 @@ const projectcards = {
         }
       ],
       link: "https://parana-fumigaciones.netlify.app/",
-      code: "",
+      code: "https://github.com/santiagopas",
       linkcolor: "orange",
     },
     {
@@ -295,7 +295,7 @@ const projectcards = {
         }
       ],
       link: "https://portafolio-santiago-web.netlify.app/",
-      code: "",
+      code: "https://github.com/santiagopas",
       linkcolor: "orange",
     },
     {
@@ -326,7 +326,38 @@ const projectcards = {
         }
       ],
       link: "https://santiago-pasciullo.netlify.app/home",
-      code: "",
+      code: "https://github.com/santiagopas",
+      linkcolor: "orange",
+    },
+    {
+      title: "Ruby on Rails Agenda Web",
+      img_path:"PortafolioReact.png",
+      description:
+        "App web creada con Ruby on Rails, Tailwind.css y PosgreSQL. La app cuenta con registro de usuario, autenticación, edición y administración de cuenta. Desplegada en Heroku",
+      tags: [
+        {
+          lang: "Ruby",
+          color: "#C85454",
+        },
+        {
+          lang: "Ruby on Rails",
+          color: "#A94F6F",
+        },
+        {
+          lang: "HTML5",
+          color: "#004782",
+        },
+        {
+          lang: "CSS3",
+          color: "#8700b0",
+        },
+        {
+          lang: "Heroku",
+          color: "#A34FB8",
+        }
+      ],
+      link: "https://rails-agenda.herokuapp.com/",
+      code: "https://github.com/santiagopas",
       linkcolor: "orange",
     },
   ],
