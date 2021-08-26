@@ -116,9 +116,9 @@ const skills = {
         },
         {
           skillName: "BootStrap",
-          fontAwesomeClassname: "logos-bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
-            color: "#CC6699",
+            color: "#7111F5",
           },
         },
         {
