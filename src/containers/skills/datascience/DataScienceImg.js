@@ -30,7 +30,7 @@ class DataScienceImg extends Component {
     return (
       <div className="App">
         <div className="container">
-      <img src={data} alt="" width="400"/>
+      <img src={data} alt="" width="280"/>
       </div>
       </div>
     );
