@@ -356,7 +356,7 @@ const projectcards = {
           color: "#A34FB8",
         }
       ],
-      link: "https://rails-agenda.herokuapp.com/",
+      link: "https://agenda-raiils.herokuapp.com/",
       code: "https://github.com/santiagopas",
       linkcolor: "orange",
     },
