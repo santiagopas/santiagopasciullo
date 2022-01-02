@@ -51,11 +51,18 @@ class Projects extends Component {
             {projectcards.list.map((proj) => {
               return (
                 <Card className="h-100">
-                  {/* <Card.Img
-                    variant="top"
-                    src={require(`../../assets/projects/${proj.img_path}`)}
-                  />   */}
-
+                  <a
+                    style={{ color: theme.text }}
+                    href={proj.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Card.Img
+                      variant="top"
+                      src={proj.img_path}
+                      alt="Vista previa"
+                    />
+                  </a>
                   <Card.Body >
                     <Card.Title>
                       <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>
