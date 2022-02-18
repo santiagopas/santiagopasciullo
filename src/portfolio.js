@@ -413,7 +413,7 @@ const projectcards = {
           color: "#A34FB8",
         }
       ],
-      link: "https://mercurycode.net/",
+      link: "https://landing-mercury-code.netlify.app/",
       code: "https://github.com/santiagopas",
       linkcolor: "orange",
     },
