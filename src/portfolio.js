@@ -417,6 +417,30 @@ const projectcards = {
       code: "https://github.com/santiagopas",
       linkcolor: "orange",
     },
+    {
+      title: "Estamos llegando",
+      img_path: "http://127.0.0.1:5500/img/estamos-llegando.jpeg",
+      description:
+        "Página para prelanzamiento de producto realizada con ReactJs y styled components.",
+      tags: [
+      
+        {
+          lang: "Reactjs",
+          color: "#004782",
+        },
+        {
+          lang: "JavaScript",
+          color: "#c47206",
+        },
+        {
+          lang: "Styled Components",
+          color: "#A34FB8",
+        }
+      ],
+      link: "https://mercury-landing-pronto.netlify.app/",
+      code: "https://github.com/santiagopas",
+      linkcolor: "orange",
+    },
   ],
 };
 
