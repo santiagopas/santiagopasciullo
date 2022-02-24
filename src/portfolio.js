@@ -53,13 +53,21 @@ const skills = {
         "⚡ Desarrollo de aplicaciones móviles",
         "⚡ Registro, login y validación de usuarios, actividad de los usuarios en la aplicación",
         "⚡ Aplicación de metodología SCRUM / KanBan (Scrumban) con Trello",
-        "⚡ Tecnologías usadas:  Framework7 / Firebase / Bases de datos SQL y NoSQL",
+        "⚡ Tecnologías usadas:  Framework7/ Ionic / Firebase / Bases de datos SQL y NoSQL",
       ],
       softwareSkills: [
 
         {
           skillName: "Framework 7",
           fontAwesomeClassname: "logos-framework7",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Ionic 6",
+          fontAwesomeClassname: "logos-ionic",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -114,10 +122,24 @@ const skills = {
           },
         },
         {
-          skillName: "BootStrap",
+          skillName: "Bulma",
+          fontAwesomeClassname: "simple-icons:bulma",
+          style: {
+            color: "#009688",
+          },
+        },
+        {
+          skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
             color: "#7111F5",
+          },
+        },
+        {
+          skillName: "Tailwind",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            color: "#38BDF8",
           },
         },
         {
@@ -129,10 +151,24 @@ const skills = {
           },
         },
         {
+          skillName: "Angular12",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#DD0031",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "VUEjs",
+          fontAwesomeClassname: "simple-icons:vuejs",
+          style: {
+            color: "#194D33",
           },
         },
         {
@@ -149,13 +185,7 @@ const skills = {
             color: "#CC0000",
           },
         },
-        {
-          skillName: "VUEjs",
-          fontAwesomeClassname: "simple-icons:vuejs",
-          style: {
-            color: "#194D33",
-          },
-        },
+  
       ],
     },
     {
