@@ -95,9 +95,10 @@ const skills = {
       title: "Desarrollo web",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Creación de sitios responsive con HTML5, CSS3, BootStrap5, ReactJS, VUEjs & NodeJS",
+        "⚡ Creación de sitios responsive con HTML5, CSS3, BootStrap5, Bulma, TailwindCSS, Angular 12, ReactJS, VUEjs & NodeJS",
         "⚡ Creación de aplicaciones backend con NodeJS",
         "⚡ Hosteo de páginas web",
+        "⚡ Aplicaciones con Ruby on Rails",
       ],
       softwareSkills: [
         {
